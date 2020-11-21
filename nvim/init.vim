@@ -116,6 +116,7 @@ Plug 'tpope/vim-repeat' " Make dot command better
 
 Plug 'tpope/vim-surround' " quotes/blocks/tags and more manipulation
 Plug 'tpope/vim-commentary' " comment out stuff
+Plug 'suy/vim-context-commentstring'
 Plug 'tpope/vim-projectionist' " switch between test files or create them
 Plug 'tpope/vim-unimpaired' 
 Plug 'tpope/vim-eunuch' " Added Unix command capability for vim
@@ -123,8 +124,8 @@ Plug 'sheerun/vim-polyglot' " all the syntax highlighting
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'joshdick/onedark.vim'
+Plug 'cloudhead/neovim-fuzzy'
 call plug#end()
-
 
 autocmd! User GoyoEnter Limelight
 autocmd! User GoyoLeave Limelight!
